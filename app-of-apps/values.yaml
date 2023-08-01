@@ -4,7 +4,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     # HIGHLIGHT
-    repoURL: ${GITOPS_REPO_URL_ARGOCD}
+    repoURL: https://github.com/enrique-esquivel/eks-argocd-sample
     # HIGHLIGHT
     targetRevision: main
 
