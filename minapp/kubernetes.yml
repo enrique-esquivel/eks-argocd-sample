@@ -4,7 +4,7 @@ kind: Service
 metadata:
   annotations:
     app.quarkus.io/commit-id: 463f1c314a962ca10bd23ca7055f24894912b00f
-    app.quarkus.io/build-timestamp: 2023-09-21 - 21:24:15 +0000
+    app.quarkus.io/build-timestamp: 2023-09-22 - 21:24:15 +0000
   labels:
     app.kubernetes.io/name: kubernetes-quickstart
     app.kubernetes.io/version: 1.0.0-SNAPSHOT
