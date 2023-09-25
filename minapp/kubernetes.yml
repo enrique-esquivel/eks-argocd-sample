@@ -3,8 +3,8 @@ apiVersion: v1
 kind: Service
 metadata:
   annotations:
-    app.quarkus.io/commit-id: 463f1c314a962ca10bd23ca7055f24894912b00f
-    app.quarkus.io/build-timestamp: 2023-09-22 - 21:24:15 +0000
+    app.quarkus.io/commit-id: 21188fb69e89cb69aa44ba20f5692238f69f8419
+    app.quarkus.io/build-timestamp: 2023-09-25 - 23:12:03 +0000
   labels:
     app.kubernetes.io/name: kubernetes-quickstart
     app.kubernetes.io/version: 1.0.0-SNAPSHOT
@@ -25,28 +25,28 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    app.quarkus.io/commit-id: 463f1c314a962ca10bd23ca7055f24894912b00f
-    app.quarkus.io/build-timestamp: 2023-09-21 - 21:24:15 +0000
+    app.quarkus.io/commit-id: 21188fb69e89cb69aa44ba20f5692238f69f8419
+    app.quarkus.io/build-timestamp: 2023-09-25 - 23:12:03 +0000
   labels:
     app.kubernetes.io/managed-by: quarkus
-    app.kubernetes.io/name: kubernetes-quickstart
     app.kubernetes.io/version: 1.0.0-SNAPSHOT
+    app.kubernetes.io/name: kubernetes-quickstart
   name: kubernetes-quickstart
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.kubernetes.io/name: kubernetes-quickstart
       app.kubernetes.io/version: 1.0.0-SNAPSHOT
+      app.kubernetes.io/name: kubernetes-quickstart
   template:
     metadata:
       annotations:
-        app.quarkus.io/commit-id: 463f1c314a962ca10bd23ca7055f24894912b00f
-        app.quarkus.io/build-timestamp: 2023-09-21 - 21:24:15 +0000
+        app.quarkus.io/commit-id: 21188fb69e89cb69aa44ba20f5692238f69f8419
+        app.quarkus.io/build-timestamp: 2023-09-25 - 23:12:03 +0000
       labels:
         app.kubernetes.io/managed-by: quarkus
-        app.kubernetes.io/name: kubernetes-quickstart
         app.kubernetes.io/version: 1.0.0-SNAPSHOT
+        app.kubernetes.io/name: kubernetes-quickstart
     spec:
       containers:
         - env:
